@@ -38,4 +38,4 @@ vitis/mps2/.project
 vivado/*
 # src files hw
 !vivado/srcs/
-!vitis/two_16550.tcl
+!vivado/two_16550.tcl
