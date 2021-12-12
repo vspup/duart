@@ -9,7 +9,7 @@ Petalinux 2020.2
 
 **Attention!!!**
 
-Before cloning the repository, you need to download the archive - https://github.com/vspup/oamp/blob/master/duart.zip. 
+Before cloning the repository, you need to download the archive - https://github.com/vspup/duart/blob/master/duart.zip
 Copy the archive to the folder where the project will be located. 
 Unpack the archive in this park. 
 You should end up with a file structure like this:
@@ -30,21 +30,21 @@ DLSTR="DL_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/downloads\""
 SSSTR="SSTATE_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/sstate-cache\""
 # ****
 ```
-  accordance with your location of the Xilinx and Petalinux tools
-  PLDIR=/home/volo/xilinx/Petalinux/2020.2
-  
-  VITISDIR=/home/volo/xilinx/Vitis/2020.2
+First change accordance with your location of the Xilinx and Petalinux tools
+
+PLDIR=/home/volo/xilinx/Petalinux/2020.2
+VITISDIR=/home/volo/xilinx/Vitis/2020.2
+VIVADODIR=/home/volo/xilinx/Vivado/2020.2
 
 In addition, these two variables contain the path to the folder in which the downloaded files will be cached.
   
   DLSTR="DL_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/downloads\""
-  
   SSSTR="SSTATE_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/sstate-cache\""  
 
 Make the script an executable file and run it to run. This script will create:
 - plinux - petalinux project
-- sw_vitis - directory with app progects
-- rtapp
-- plapp
+- vitis - directory with app progects
+  - rtapp
+  - plapp
+- vivado - HW progect
 
-After the script finishes successfully, you can clone the repository to this folder. We can use spetial script _git_clone.sh
