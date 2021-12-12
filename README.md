@@ -41,6 +41,9 @@ In addition, these two variables contain the path to the folder in which the dow
   DLSTR="DL_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/downloads\""
   SSSTR="SSTATE_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/sstate-cache\""  
 
+**Attention!!!**
+This script use ssh access to GitHub repository. So you needed adjasten this. Or we can use _create.sh script and do clone repository  after.
+
 Make the script an executable file and run it to run. This script will create:
 - plinux - petalinux project
 - vitis - directory with app progects
