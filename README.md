@@ -32,9 +32,9 @@ SSSTR="SSTATE_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/sstate-cache\""
 ```
 First change accordance with your location of the Xilinx and Petalinux tools
 
-PLDIR=/home/volo/xilinx/Petalinux/2020.2
-VITISDIR=/home/volo/xilinx/Vitis/2020.2
-VIVADODIR=/home/volo/xilinx/Vivado/2020.2
+- PLDIR= ==/home/volo/xilinx/Petalinux/2020.2==
+- VITISDIR=/home/volo/xilinx/Vitis/2020.2
+- VIVADODIR=/home/volo/xilinx/Vivado/2020.2
 
 In addition, these two variables contain the path to the folder in which the downloaded files will be cached.
   
